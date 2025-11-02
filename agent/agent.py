@@ -6,20 +6,10 @@ Provides both MCP-enabled and simplified versions of the agent.
 """
 
 import os
-import sys
-from pathlib import Path
-
-# Add project root to path for imports
-project_root = Path(__file__).parent.parent.parent
-sys.path.insert(0, str(project_root))
-
-# LLM Tracing
 import agentops
 from agent.sub_agent_definitions import MASTER_INSTRUCTIONS
 from agent.sub_agent_definitions import get_sub_agents
 from dotenv import load_dotenv
-
-# ADK imports
 from google.adk.agents import LlmAgent
 from google.adk.agents import SequentialAgent
 
@@ -125,13 +115,4 @@ def create_agent(mcp_tool_wrappers=None):
     return coordinator
 
 
-# -------------------------------------------------------------------------
-# Create default agent without MCP tools (for ADK web UI)
-# -------------------------------------------------------------------------
-
 root_agent = create_agent()
-
-print("=" * 80)
-print("Ryder Cup Agent initialized")
-print("Agent hierarchy: Coordinator → SequentialPipeline → 5 Sub-Agents")
-print("=" * 80)
