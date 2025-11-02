@@ -1,14 +1,8 @@
-"""
-Ryder Cup Prediction Agent - Compatible with ADK Web UI
-
-This file exposes the root agent for visualization with `adk web`.
-Provides both MCP-enabled and simplified versions of the agent.
-"""
-
 import os
+
 import agentops
-from agent.sub_agent_definitions import MASTER_INSTRUCTIONS
-from agent.sub_agent_definitions import get_sub_agents
+from ryder_cup_prediction.sub_agent_definitions import MASTER_INSTRUCTIONS
+from ryder_cup_prediction.sub_agent_definitions import get_sub_agents
 from dotenv import load_dotenv
 from google.adk.agents import LlmAgent
 from google.adk.agents import SequentialAgent
@@ -18,12 +12,6 @@ agentops.init(api_key=AGENTOPS_API_KEY, default_tags=["google adk"])
 
 # Load environment variables
 load_dotenv()
-
-
-# -------------------------------------------------------------------------
-# Agent Builder Function
-# -------------------------------------------------------------------------
-
 
 def create_agent(mcp_tool_wrappers=None):
     """

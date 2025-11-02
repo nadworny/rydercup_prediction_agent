@@ -21,7 +21,7 @@ load_dotenv()
 
 project_root = Path(__file__).parent
 
-from agent.agent import create_agent
+from ryder_cup_prediction.agent import create_agent
 from google.adk import Runner
 from google.adk.sessions import InMemorySessionService
 from google.genai import types
@@ -103,9 +103,9 @@ Begin your analysis now.
                 return
 
             session_service = InMemorySessionService()
-            runner = Runner(app_name="ryder_cup_predictor", agent=agent, session_service=session_service)
+            runner = Runner(app_name="ryder_cup_prediction", agent=agent, session_service=session_service)
 
-            session = await session_service.create_session(app_name="ryder_cup_predictor", user_id="predictor_user")
+            session = await session_service.create_session(app_name="ryder_cup_prediction", user_id="predictor_user")
             user_message = types.Content(role="user", parts=[types.Part(text=user_prompt)])
 
             async for event in runner.run_async(

@@ -26,11 +26,9 @@ All agents communicate via `session.state` using `output_key` parameters.
 # Install dependencies
 uv sync
 
-# Create .env file
-cat > .env << EOF
-GOOGLE_API_KEY=your_google_api_key_here
-AGENTOPS_API_KEY=your_agentops_key_here  # optional
-EOF
+# Create .env file from example
+cp .env.example .env
+# Then edit .env and add your API keys
 ```
 
 ## Usage

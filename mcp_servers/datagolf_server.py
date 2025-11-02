@@ -1,4 +1,3 @@
-# mcp_servers/datagolf_server.py
 import asyncio
 from mcp.server.fastmcp import FastMCP
 
