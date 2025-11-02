@@ -21,13 +21,13 @@ load_dotenv()
 
 project_root = Path(__file__).parent
 
-from ryder_cup_prediction.agent import create_agent
 from google.adk import Runner
 from google.adk.sessions import InMemorySessionService
 from google.genai import types
 from mcp import ClientSession
 from mcp import StdioServerParameters
 from mcp.client.stdio import stdio_client
+from ryder_cup_prediction.agent import create_agent
 
 
 async def main():
@@ -53,24 +53,24 @@ async def main():
             agent = create_agent(mcp_tool_wrappers=mcp_tool_wrappers)
 
             pairings = [
-                ("Cameron Young", "Justin Rose"),
-                ("Justin Thomas", "Tommy Fleetwood"),
-                ("Bryson DeChambeau", "Matt Fitzpatrick"),
-                ("Patrick Cantlay", "Ludvig Åberg"),
-                ("Xander Schauffele", "Jon Rahm"),
-                ("J.J. Spaun", "Sepp Straka"),
-                ("Russell Henley", "Shane Lowry"),
-                ("Ben Griffin", "Rasmus Højgaard"),
-                ("Collin Morikawa", "Tyrrell Hatton"),
-                ("Sam Burns", "Robert MacIntyre"),
-                ("Harris English", "Viktor Hovland"),
-                ("Scottie Scheffler", "Rory McIlroy"),
+                ("Justin Rose", "Cameron Young"),
+                ("Tommy Fleetwood", "Justin Thomas"),
+                ("Matt Fitzpatrick", "Bryson DeChambeau"),
+                ("Rory McIlroy", "Scottie Scheffler"),
+                ("Ludvig Åberg", "Patrick Cantlay"),
+                ("Jon Rahm", "Xander Schauffele"),
+                ("Sepp Straka", "J. J. Spaun"),
+                ("Shane Lowry", "Russell Henley"),
+                ("Rasmus Højgaard", "Ben Griffin"),
+                ("Tyrrell Hatton", "Collin Morikawa"),
+                ("Robert MacIntyre", "Sam Burns"),
+                ("Viktor Hovland", "Harris English"),
             ]
 
-            starting_score = {"USA": 8.5, "Europe": 9.5}
+            starting_score = {"USA": 4.5, "Europe": 11.5}
 
             pairings_text = "\n".join(
-                [f"Match {i+1}: {usa} (USA) vs {eur} (Europe)" for i, (usa, eur) in enumerate(pairings)]
+                [f"Match {i+1}: {eur} (Europe) vs {usa} (USA)" for i, (eur, usa) in enumerate(pairings)]
             )
 
             user_prompt = f"""
@@ -80,11 +80,11 @@ Current Score (after Saturday):
 - USA: {starting_score['USA']}
 - Europe: {starting_score['Europe']}
 
-Sunday Singles Pairings:
+Sunday Singles Pairings (Europe player listed first):
 {pairings_text}
 
 Your task:
-1. For the first match (Cameron Young vs Justin Rose):
+1. For the first match (Justin Rose vs Cameron Young):
    - Use the sequential pipeline to analyze this match
    - The pipeline will automatically:
      a) Profile both players (PlayerProfilerAgent)
@@ -106,6 +106,10 @@ Begin your analysis now.
             runner = Runner(app_name="ryder_cup_prediction", agent=agent, session_service=session_service)
 
             session = await session_service.create_session(app_name="ryder_cup_prediction", user_id="predictor_user")
+
+            print("Prompt:")
+            print(user_prompt)
+
             user_message = types.Content(role="user", parts=[types.Part(text=user_prompt)])
 
             async for event in runner.run_async(
