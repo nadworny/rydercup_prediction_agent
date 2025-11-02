@@ -1,5 +1,5 @@
 [project]
-name = "rydercup-predictor-agent"
+name = "rydercup-prediction-agent"
 version = "0.1.0"
 description = "Ryder Cup prediction agent using Google ADK and MCP"
 readme = "README.md"
