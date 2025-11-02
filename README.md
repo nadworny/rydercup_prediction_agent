@@ -6,7 +6,7 @@ A multi-agent system powered by Google ADK and Model Context Protocol (MCP) that
 
 ## Architecture
 
-The system uses a **SequentialAgent** as the coordinator with 5 specialized sub-agents that execute in order:
+The system uses a **Sequential Agent Pipeline** with 5 specialized sub-agents:
 
 1. **PlayerProfilerAgent** - Fetches TSG data via MCP tools
 2. **RecentFormAnalyst** - Analyzes 3-month form trends
@@ -14,7 +14,7 @@ The system uses a **SequentialAgent** as the coordinator with 5 specialized sub-
 4. **MatchupSynthesizerAgent** - Synthesizes probabilities from form + skill
 5. **MonteCarloSimulationAgent** - Generates match outcomes
 
-All agents communicate via `session.state` using `output_key` parameters. The SequentialAgent automatically executes each sub-agent in sequence, passing state between them.
+All agents communicate via `session.state` using `output_key` parameters.
 
 ## Prerequisites
 

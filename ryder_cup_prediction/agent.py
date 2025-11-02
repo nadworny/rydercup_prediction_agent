@@ -109,10 +109,9 @@ def create_agent(mcp_tool_wrappers=None):
     )
 
     # Create SequentialAgent to orchestrate the pipeline
-    # The SequentialAgent itself acts as the coordinator
-    coordinator = SequentialAgent(
-        name="RyderCupCoordinator",
-        description=MASTER_INSTRUCTIONS,
+    match_analysis_pipeline = SequentialAgent(
+        name="MatchAnalysisPipeline",
+        description="Sequential pipeline for analyzing one match",
         sub_agents=[
             player_profiler,
             recent_form_analyst,
@@ -120,6 +119,15 @@ def create_agent(mcp_tool_wrappers=None):
             matchup_synthesizer,
             monte_carlo_simulator,
         ],
+    )
+
+    # Create coordinator agent that delegates to the pipeline
+    coordinator = LlmAgent(
+        name="RyderCupCoordinator",
+        description="Coordinates analysis of all 12 Ryder Cup matches using sequential pipeline",
+        instruction=MASTER_INSTRUCTIONS,
+        sub_agents=[match_analysis_pipeline],
+        model="gemini-2.5-flash",
     )
 
     return coordinator
