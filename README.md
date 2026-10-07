@@ -4,6 +4,9 @@ A multi-agent system powered by Google ADK and Model Context Protocol (MCP) that
 
 ![ADK Web Demo](docs/images/adk_web_run.gif)
 
+## TODO
+reasoning model for main agent
+
 ## Architecture
 
 The system uses a **Sequential Agent Pipeline** with 5 specialized sub-agents:
@@ -60,6 +63,42 @@ The `adk web` interface automatically:
 - Spawns the MCP server as a subprocess
 - Manages the MCP server lifecycle (start/stop)
 - Provides an interactive chat interface
+
+### Option 3: Docker
+
+Run the agent in a Docker container:
+
+```bash
+# Build the image
+docker build -t rydercup-agent .
+
+# Run with Web UI (default)
+docker run -p 8000:8000 \
+  -v ~/.config/gcloud:/root/.config/gcloud:ro \
+  -e GOOGLE_CLOUD_PROJECT="genai-476313" \
+  -e GOOGLE_GENAI_USE_VERTEXAI=TRUE \
+  -e AGENTOPS_API_KEY=your_agentops_key_here \
+  rydercup-agent
+
+# Run as API server (no web UI)
+docker run -p 8000:8000 \
+  -v ~/.config/gcloud:/root/.config/gcloud:ro \
+  -e ADK_MODE=api \
+  -e GOOGLE_CLOUD_PROJECT="genai-476313" \
+  -e GOOGLE_GENAI_USE_VERTEXAI=TRUE \
+  -e AGENTOPS_API_KEY=your_agentops_key_here \
+  rydercup-agent
+```
+
+**Modes:**
+- **Web UI** (default): Interactive chat interface at http://localhost:8000
+- **API Server** (set `ADK_MODE=api`): REST API at http://localhost:8000 (see [ADK API docs](https://github.com/google/genai-app-dev-kit) for endpoints)
+
+**Authentication Options:**
+- **API Key**: Use `GOOGLE_API_KEY` environment variable instead of mounting gcloud config
+- **ADC (Application Default Credentials)**: For Vertex AI, mount your gcloud config with `-v ~/.config/gcloud:/root/.config/gcloud:ro`
+
+**Note:** For ADC, ensure you've run `gcloud auth application-default login` on your host machine first. See [Google Cloud ADC documentation](https://cloud.google.com/docs/authentication/application-default-credentials#personal) for more details.
 
 ## MCP Integration
 

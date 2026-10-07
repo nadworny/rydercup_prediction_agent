@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Environment files
+.env
+*.log
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Documentation (keep README.md for build)
+docs/
+ARCHITECTURE.md
+CHECKLIST.md
+IMPLEMENTATION_SUMMARY.md
+PHASE1_SUMMARY.md
+MCP_INTEGRATION.md
+LICENSE
+
+# Misc
+.DS_Store

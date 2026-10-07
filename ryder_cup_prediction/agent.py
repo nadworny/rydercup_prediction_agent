@@ -4,6 +4,7 @@ import sys
 import agentops
 from dotenv import load_dotenv
 from google.adk.agents import LlmAgent
+from google.adk.agents import ParallelAgent
 from google.adk.agents import SequentialAgent
 from google.adk.tools.mcp_tool.mcp_session_manager import StdioConnectionParams
 from google.adk.tools.mcp_tool.mcp_session_manager import StdioServerParameters
@@ -108,14 +109,20 @@ def create_agent(mcp_tool_wrappers=None):
         output_key="simulation_results",
     )
 
+    # Create parallel analysis group for form and baseline (both depend only on player_profiles)
+    parallel_analysis = ParallelAgent(
+        name="ParallelAnalysis",
+        description="Analyzes recent form and baseline skill in parallel",
+        sub_agents=[recent_form_analyst, baseline_skill_analyst],
+    )
+
     # Create SequentialAgent to orchestrate the pipeline
     match_analysis_pipeline = SequentialAgent(
         name="MatchAnalysisPipeline",
-        description="Sequential pipeline for analyzing one match",
+        description="Sequential pipeline for analyzing one match with parallel form/baseline analysis",
         sub_agents=[
             player_profiler,
-            recent_form_analyst,
-            baseline_skill_analyst,
+            parallel_analysis,  # Run RecentFormAnalyst and BaselineSkillAnalyst in parallel
             matchup_synthesizer,
             monte_carlo_simulator,
         ],

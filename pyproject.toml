@@ -7,6 +7,7 @@ requires-python = ">=3.11"
 dependencies = [
     "agentops>=0.4.21",
     "google-adk>=0.1.0",
+    "litellm>=1.80.16",
     "mcp>=1.0.0",
     "python-dotenv>=1.0.0",
 ]

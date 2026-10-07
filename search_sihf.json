@@ -1,0 +1,621 @@
+{
+  "id": "EcyNaa_JGNy7nsEP0vGaYQ",
+  "created": 1770900486,
+  "model": "litellm_proxy/gemini-2.5-flash",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "The Swiss Ice Hockey Federation (SIHF) is the governing body for ice hockey in Switzerland, established in 1908 and a founding member of the International Ice Hockey Federation (IIHF). It serves as the umbrella organization for Swiss ice hockey, overseeing both amateur and professional levels of the sport.\n\n**Company Overview:**\nThe SIHF manages approximately 320 affiliated clubs, with around 1,000 referees, 11,400 active players, and 13,500 junior players. These participants form 1,200 teams that play roughly 16,000 games per season. The federation operates with about 400 honorary officials and 35 permanent employees.\n\n**Business Model:**\nThe SIHF's core purpose is to develop and promote ice hockey throughout Switzerland, from grassroots to elite levels, by organizing and managing national game operations according to international and national regulations. It represents Swiss ice hockey interests both nationally and internationally and provides various services to its member clubs, including granting playing licenses. The organization is structured in a matrix format, with key departments including Sport, Leagues & Cup, Education, Officiating, and Marketing/Sponsoring & Communications, supported by Finance, Human Resources, and Coordination & Services. The SIHF also engages in the financing of major sporting events, considering public acceptance and innovative marketing strategies, and focuses on value-oriented sports sponsoring.\n\n**Key Products/Services:**\nThe federation's main offerings include the management of all national teams, comprehensive talent and youth development programs, and the organization of league championships and cup tournaments across all levels, from the Sky Swiss League down to the 4th League, as well as junior leagues. It also oversees the refereeing system (Officiating) and provides initial and continuing education for all aspects of Swiss ice hockey. Other services include awarding playing licenses, hosting events like the Swiss Ice Hockey Night and Awards, and operating a fan shop.\n\n**Market Position:**\nAs the recognized governing body for ice hockey in Switzerland, the SIHF holds a dominant market position as the sport's primary regulatory and developmental authority. It is the \"Dachorganisation\" (umbrella organization) for the sport, managing both professional and amateur games, indicating a comprehensive reach across the country.\n\n**Headquarters Location:**\nThe headquarters of the Swiss Ice Hockey Federation is located in Zurich. Moneyhouse also lists its location in Glattbrugg, which is part of the greater Zurich area.\n\n**Recent News:**\nRecent discussions involving the SIHF include the future of sports sponsoring, emphasizing a value-oriented approach. Switzerland anticipates a \"golden sports decade\" with upcoming World and European Championships, Special Olympics, and potential Olympic and Paralympic Games, which the SIHF is actively involved in. Christian Hofstetter from the SIHF has contributed expert opinions on the financing and challenges of large sports events. The federation continues to host its annual Swiss Ice Hockey Night and Awards, with events planned through 2025.\n\n**Notable Achievements or Challenges:**\n*   **Achievements:**\n    *   Being a founding member of the IIHF in 1908.\n    *   Adopting the \"Foundation, Talent, Elite, Mastery\" program for player development.\n    *   Successfully managing and organizing a vast network of leagues, cups, and national teams.\n    *   Developing a robust talent and youth sport program.\n    *   Maintaining a significant number of clubs, players, and games under its purview.\n*   **Challenges:**\n    *   Addressing the complexities of financing large sports events and securing public acceptance.\n    *   Adapting to evolving trends in sports sponsoring to remain attractive to brands and secure funding for the sport's continued growth.",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "provider_specific_fields": {
+          "refusal": null
+        },
+        "annotations": [
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "end_index": 307,
+              "start_index": 185,
+              "title": "esb-online.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED3T1gBGCk78j4Vj8522YfaU9uPAqyfTS63eZJ9AWbO9vZ9pZDBInN2edOQEnvZun4cveFIEhqN3T_-Scnu-LAmoKwumuHHbwkJuEKdLyG2xO3CgLk0Aglza_j3RoURg8J6JoGwMs5TAHVQA5N_ovtHiYRkhdulpy3Zo3NVKpAP26TjY8tucToaGbXKBOG"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "end_index": 461,
+              "start_index": 309,
+              "title": "esb-online.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED3T1gBGCk78j4Vj8522YfaU9uPAqyfTS63eZJ9AWbO9vZ9pZDBInN2edOQEnvZun4cveFIEhqN3T_-Scnu-LAmoKwumuHHbwkJuEKdLyG2xO3CgLk0Aglza_j3RoURg8J6JoGwMs5TAHVQA5N_ovtHiYRkhdulpy3Zo3NVKpAP26TjY8tucToaGbXKBOG"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "end_index": 540,
+              "start_index": 462,
+              "title": "esb-online.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED3T1gBGCk78j4Vj8522YfaU9uPAqyfTS63eZJ9AWbO9vZ9pZDBInN2edOQEnvZun4cveFIEhqN3T_-Scnu-LAmoKwumuHHbwkJuEKdLyG2xO3CgLk0Aglza_j3RoURg8J6JoGwMs5TAHVQA5N_ovtHiYRkhdulpy3Zo3NVKpAP26TjY8tucToaGbXKBOG"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "end_index": 626,
+              "start_index": 541,
+              "title": "esb-online.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED3T1gBGCk78j4Vj8522YfaU9uPAqyfTS63eZJ9AWbO9vZ9pZDBInN2edOQEnvZun4cveFIEhqN3T_-Scnu-LAmoKwumuHHbwkJuEKdLyG2xO3CgLk0Aglza_j3RoURg8J6JoGwMs5TAHVQA5N_ovtHiYRkhdulpy3Zo3NVKpAP26TjY8tucToaGbXKBOG"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "end_index": 870,
+              "start_index": 628,
+              "title": "moneyhouse.ch",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCpeEI-94ngo2DDcuosucn1gNrGAIFGKpUvk-VwoM2gVpnTqpSKYEyYKLh-GDLSEJi6jmtXoJhws-gFDx78XBhlg-uIyqe70nnsVXZa-_tRc5Xu2tP5BDSM1u28BwsNWzg0Zqpl3tjWESBCw9HfZenWsc0cNbXT-2WLqVUYW5iuJMTeyS59A=="
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "end_index": 1035,
+              "start_index": 871,
+              "title": "moneyhouse.ch",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCpeEI-94ngo2DDcuosucn1gNrGAIFGKpUvk-VwoM2gVpnTqpSKYEyYKLh-GDLSEJi6jmtXoJhws-gFDx78XBhlg-uIyqe70nnsVXZa-_tRc5Xu2tP5BDSM1u28BwsNWzg0Zqpl3tjWESBCw9HfZenWsc0cNbXT-2WLqVUYW5iuJMTeyS59A=="
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "end_index": 1274,
+              "start_index": 1036,
+              "title": "sihf.ch",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj2Z7EshlPhBaMug-7p-aHlG2VgT16_1DZXPN7BKpZp4seGQfxbydEK6fyvXD89zsmC9jmVq-3XDmK5NpJ0dqSPaFHoOwQX4LtRJtUoDt8BJAk6Xj0uGierJYU56J3DgqJSZ041Se-53dqQL59sRsZyWIqfygwvFZ8"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "end_index": 1455,
+              "start_index": 1275,
+              "title": "esb-online.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED3T1gBGCk78j4Vj8522YfaU9uPAqyfTS63eZJ9AWbO9vZ9pZDBInN2edOQEnvZun4cveFIEhqN3T_-Scnu-LAmoKwumuHHbwkJuEKdLyG2xO3CgLk0Aglza_j3RoURg8J6JoGwMs5TAHVQA5N_ovtHiYRkhdulpy3Zo3NVKpAP26TjY8tucToaGbXKBOG"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "end_index": 1775,
+              "start_index": 1457,
+              "title": "sihf.ch",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj2Z7EshlPhBaMug-7p-aHlG2VgT16_1DZXPN7BKpZp4seGQfxbydEK6fyvXD89zsmC9jmVq-3XDmK5NpJ0dqSPaFHoOwQX4LtRJtUoDt8BJAk6Xj0uGierJYU56J3DgqJSZ041Se-53dqQL59sRsZyWIqfygwvFZ8"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "end_index": 1911,
+              "start_index": 1776,
+              "title": "sihf.ch",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj2Z7EshlPhBaMug-7p-aHlG2VgT16_1DZXPN7BKpZp4seGQfxbydEK6fyvXD89zsmC9jmVq-3XDmK5NpJ0dqSPaFHoOwQX4LtRJtUoDt8BJAk6Xj0uGierJYU56J3DgqJSZ041Se-53dqQL59sRsZyWIqfygwvFZ8"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "end_index": 2046,
+              "start_index": 1912,
+              "title": "sihf.ch",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj2Z7EshlPhBaMug-7p-aHlG2VgT16_1DZXPN7BKpZp4seGQfxbydEK6fyvXD89zsmC9jmVq-3XDmK5NpJ0dqSPaFHoOwQX4LtRJtUoDt8BJAk6Xj0uGierJYU56J3DgqJSZ041Se-53dqQL59sRsZyWIqfygwvFZ8"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "end_index": 2237,
+              "start_index": 2048,
+              "title": "wikipedia.org",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAg6-S49Ss3luvxVpDpuWDPIiwONrnjeL4WwWQedfVQdO7Z8x5pI93oUrL1JsmQAH_nkDZM4fxlU_O0KehWDOhu0PI1tI7ir3WpFrzltQ-Pzk7dEXwGhvbVqMUEeD1XMCMLSQIYtC9mAiusbg2duRS8PFt"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "end_index": 2290,
+              "start_index": 2238,
+              "title": "esb-online.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED3T1gBGCk78j4Vj8522YfaU9uPAqyfTS63eZJ9AWbO9vZ9pZDBInN2edOQEnvZun4cveFIEhqN3T_-Scnu-LAmoKwumuHHbwkJuEKdLyG2xO3CgLk0Aglza_j3RoURg8J6JoGwMs5TAHVQA5N_ovtHiYRkhdulpy3Zo3NVKpAP26TjY8tucToaGbXKBOG"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "end_index": 2404,
+              "start_index": 2291,
+              "title": "wikipedia.org",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAg6-S49Ss3luvxVpDpuWDPIiwONrnjeL4WwWQedfVQdO7Z8x5pI93oUrL1JsmQAH_nkDZM4fxlU_O0KehWDOhu0PI1tI7ir3WpFrzltQ-Pzk7dEXwGhvbVqMUEeD1XMCMLSQIYtC9mAiusbg2duRS8PFt"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "end_index": 2506,
+              "start_index": 2406,
+              "title": "esb-online.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED3T1gBGCk78j4Vj8522YfaU9uPAqyfTS63eZJ9AWbO9vZ9pZDBInN2edOQEnvZun4cveFIEhqN3T_-Scnu-LAmoKwumuHHbwkJuEKdLyG2xO3CgLk0Aglza_j3RoURg8J6JoGwMs5TAHVQA5N_ovtHiYRkhdulpy3Zo3NVKpAP26TjY8tucToaGbXKBOG"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "end_index": 2598,
+              "start_index": 2507,
+              "title": "moneyhouse.ch",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCpeEI-94ngo2DDcuosucn1gNrGAIFGKpUvk-VwoM2gVpnTqpSKYEyYKLh-GDLSEJi6jmtXoJhws-gFDx78XBhlg-uIyqe70nnsVXZa-_tRc5Xu2tP5BDSM1u28BwsNWzg0Zqpl3tjWESBCw9HfZenWsc0cNbXT-2WLqVUYW5iuJMTeyS59A=="
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "end_index": 2734,
+              "start_index": 2600,
+              "title": "esb-online.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED3T1gBGCk78j4Vj8522YfaU9uPAqyfTS63eZJ9AWbO9vZ9pZDBInN2edOQEnvZun4cveFIEhqN3T_-Scnu-LAmoKwumuHHbwkJuEKdLyG2xO3CgLk0Aglza_j3RoURg8J6JoGwMs5TAHVQA5N_ovtHiYRkhdulpy3Zo3NVKpAP26TjY8tucToaGbXKBOG"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "end_index": 2933,
+              "start_index": 2735,
+              "title": "esb-online.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED3T1gBGCk78j4Vj8522YfaU9uPAqyfTS63eZJ9AWbO9vZ9pZDBInN2edOQEnvZun4cveFIEhqN3T_-Scnu-LAmoKwumuHHbwkJuEKdLyG2xO3CgLk0Aglza_j3RoURg8J6JoGwMs5TAHVQA5N_ovtHiYRkhdulpy3Zo3NVKpAP26TjY8tucToaGbXKBOG"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "end_index": 3056,
+              "start_index": 2934,
+              "title": "esb-online.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED3T1gBGCk78j4Vj8522YfaU9uPAqyfTS63eZJ9AWbO9vZ9pZDBInN2edOQEnvZun4cveFIEhqN3T_-Scnu-LAmoKwumuHHbwkJuEKdLyG2xO3CgLk0Aglza_j3RoURg8J6JoGwMs5TAHVQA5N_ovtHiYRkhdulpy3Zo3NVKpAP26TjY8tucToaGbXKBOG"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "end_index": 3169,
+              "start_index": 3057,
+              "title": "sihf.ch",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj2Z7EshlPhBaMug-7p-aHlG2VgT16_1DZXPN7BKpZp4seGQfxbydEK6fyvXD89zsmC9jmVq-3XDmK5NpJ0dqSPaFHoOwQX4LtRJtUoDt8BJAk6Xj0uGierJYU56J3DgqJSZ041Se-53dqQL59sRsZyWIqfygwvFZ8"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "end_index": 3285,
+              "start_index": 3171,
+              "title": "wikipedia.org",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAg6-S49Ss3luvxVpDpuWDPIiwONrnjeL4WwWQedfVQdO7Z8x5pI93oUrL1JsmQAH_nkDZM4fxlU_O0KehWDOhu0PI1tI7ir3WpFrzltQ-Pzk7dEXwGhvbVqMUEeD1XMCMLSQIYtC9mAiusbg2duRS8PFt"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "end_index": 3375,
+              "start_index": 3290,
+              "title": "wikipedia.org",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAg6-S49Ss3luvxVpDpuWDPIiwONrnjeL4WwWQedfVQdO7Z8x5pI93oUrL1JsmQAH_nkDZM4fxlU_O0KehWDOhu0PI1tI7ir3WpFrzltQ-Pzk7dEXwGhvbVqMUEeD1XMCMLSQIYtC9mAiusbg2duRS8PFt"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "end_index": 3473,
+              "start_index": 3380,
+              "title": "sihf.ch",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj2Z7EshlPhBaMug-7p-aHlG2VgT16_1DZXPN7BKpZp4seGQfxbydEK6fyvXD89zsmC9jmVq-3XDmK5NpJ0dqSPaFHoOwQX4LtRJtUoDt8BJAk6Xj0uGierJYU56J3DgqJSZ041Se-53dqQL59sRsZyWIqfygwvFZ8"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "end_index": 3533,
+              "start_index": 3478,
+              "title": "sihf.ch",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj2Z7EshlPhBaMug-7p-aHlG2VgT16_1DZXPN7BKpZp4seGQfxbydEK6fyvXD89zsmC9jmVq-3XDmK5NpJ0dqSPaFHoOwQX4LtRJtUoDt8BJAk6Xj0uGierJYU56J3DgqJSZ041Se-53dqQL59sRsZyWIqfygwvFZ8"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "end_index": 3622,
+              "start_index": 3538,
+              "title": "esb-online.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED3T1gBGCk78j4Vj8522YfaU9uPAqyfTS63eZJ9AWbO9vZ9pZDBInN2edOQEnvZun4cveFIEhqN3T_-Scnu-LAmoKwumuHHbwkJuEKdLyG2xO3CgLk0Aglza_j3RoURg8J6JoGwMs5TAHVQA5N_ovtHiYRkhdulpy3Zo3NVKpAP26TjY8tucToaGbXKBOG"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "end_index": 3743,
+              "start_index": 3623,
+              "title": "esb-online.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED3T1gBGCk78j4Vj8522YfaU9uPAqyfTS63eZJ9AWbO9vZ9pZDBInN2edOQEnvZun4cveFIEhqN3T_-Scnu-LAmoKwumuHHbwkJuEKdLyG2xO3CgLk0Aglza_j3RoURg8J6JoGwMs5TAHVQA5N_ovtHiYRkhdulpy3Zo3NVKpAP26TjY8tucToaGbXKBOG"
+            }
+          },
+          {
+            "type": "url_citation",
+            "url_citation": {
+              "end_index": 3884,
+              "start_index": 3748,
+              "title": "esb-online.com",
+              "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED3T1gBGCk78j4Vj8522YfaU9uPAqyfTS63eZJ9AWbO9vZ9pZDBInN2edOQEnvZun4cveFIEhqN3T_-Scnu-LAmoKwumuHHbwkJuEKdLyG2xO3CgLk0Aglza_j3RoURg8J6JoGwMs5TAHVQA5N_ovtHiYRkhdulpy3Zo3NVKpAP26TjY8tucToaGbXKBOG"
+            }
+          }
+        ]
+      },
+      "provider_specific_fields": {}
+    }
+  ],
+  "usage": {
+    "completion_tokens": 2042,
+    "prompt_tokens": 73,
+    "total_tokens": 2315,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 1236,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 806,
+      "image_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 73,
+      "image_tokens": null
+    }
+  },
+  "service_tier": null,
+  "vertex_ai_grounding_metadata": [
+    {
+      "searchEntryPoint": {
+        "renderedContent": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYv-stPqSSePzY4JBWLhVqxwgktjYefZoNEwpTRLWb49pKXyMg6ZmenPkK8kjwK2nRXFd5r2oHijC3THZwkAF6UV_JPTZWUio7miAAxrqhE3EWRRsJ6zHiJ1mHY8Cb_9uElMzpblw8GjF4iyJU_lOx7lvwowS_iMq-rWA1IwQEuCmThW0N1IBWIFhnG8Og6SXbRhj8o9vZfrTN3sO7DjVkxkmtT-Tv2NqWN4f7xaQmkfBJCYuad3sQ9uL2BaPMF0xwhY-q3kMaGgs6fCzjOLDqHPXYn_sJjNxOEDhPhvl6ukpHAv2NB3s-oNTvJqYiawrWkQ23KUMUIbML_VC7H01cyW9MoDBm7NnEi8pYwftu2c4FG41sIdi6zTn_NTsdbnTBOMyFF8eBxSF5Sm61WT9g1G4sEfQAvnr82eo=\">Swiss Ice Hockey Federation company overview business model products services market position headquarters recent news achievements challenges official website Handelsregister LinkedIn</a>\n  </div>\n</div>\n"
+      },
+      "groundingChunks": [
+        {
+          "web": {
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAg6-S49Ss3luvxVpDpuWDPIiwONrnjeL4WwWQedfVQdO7Z8x5pI93oUrL1JsmQAH_nkDZM4fxlU_O0KehWDOhu0PI1tI7ir3WpFrzltQ-Pzk7dEXwGhvbVqMUEeD1XMCMLSQIYtC9mAiusbg2duRS8PFt",
+            "title": "wikipedia.org"
+          }
+        },
+        {
+          "web": {
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED3T1gBGCk78j4Vj8522YfaU9uPAqyfTS63eZJ9AWbO9vZ9pZDBInN2edOQEnvZun4cveFIEhqN3T_-Scnu-LAmoKwumuHHbwkJuEKdLyG2xO3CgLk0Aglza_j3RoURg8J6JoGwMs5TAHVQA5N_ovtHiYRkhdulpy3Zo3NVKpAP26TjY8tucToaGbXKBOG",
+            "title": "esb-online.com"
+          }
+        },
+        {
+          "web": {
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj2JAe0BUhf6KhBHQUW5W_t2hH6sV-6tu0ddik3a7gbFMtCKAnvqlDDf9WFSQmVcHVUrBsx9KUqQQFAuKSk3UlRoUMBdWEBjO5v48CQF4PCrR5Nw8-F8UmG2D1jVflRDKTz12tB93jSxH_ZgRJiDmfHsQVdNb1f3o9",
+            "title": "sihf.ch"
+          }
+        },
+        {
+          "web": {
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCpeEI-94ngo2DDcuosucn1gNrGAIFGKpUvk-VwoM2gVpnTqpSKYEyYKLh-GDLSEJi6jmtXoJhws-gFDx78XBhlg-uIyqe70nnsVXZa-_tRc5Xu2tP5BDSM1u28BwsNWzg0Zqpl3tjWESBCw9HfZenWsc0cNbXT-2WLqVUYW5iuJMTeyS59A==",
+            "title": "moneyhouse.ch"
+          }
+        },
+        {
+          "web": {
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj2Z7EshlPhBaMug-7p-aHlG2VgT16_1DZXPN7BKpZp4seGQfxbydEK6fyvXD89zsmC9jmVq-3XDmK5NpJ0dqSPaFHoOwQX4LtRJtUoDt8BJAk6Xj0uGierJYU56J3DgqJSZ041Se-53dqQL59sRsZyWIqfygwvFZ8",
+            "title": "sihf.ch"
+          }
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "endIndex": 184,
+            "text": "The Swiss Ice Hockey Federation (SIHF) is the governing body for ice hockey in Switzerland, established in 1908 and a founding member of the International Ice Hockey Federation (IIHF)."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 185,
+            "endIndex": 307,
+            "text": "It serves as the umbrella organization for Swiss ice hockey, overseeing both amateur and professional levels of the sport."
+          },
+          "groundingChunkIndices": [
+            1,
+            2
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 309,
+            "endIndex": 461,
+            "text": "**Company Overview:**\nThe SIHF manages approximately 320 affiliated clubs, with around 1,000 referees, 11,400 active players, and 13,500 junior players."
+          },
+          "groundingChunkIndices": [
+            1
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 462,
+            "endIndex": 540,
+            "text": "These participants form 1,200 teams that play roughly 16,000 games per season."
+          },
+          "groundingChunkIndices": [
+            1
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 541,
+            "endIndex": 626,
+            "text": "The federation operates with about 400 honorary officials and 35 permanent employees."
+          },
+          "groundingChunkIndices": [
+            1
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 628,
+            "endIndex": 870,
+            "text": "**Business Model:**\nThe SIHF's core purpose is to develop and promote ice hockey throughout Switzerland, from grassroots to elite levels, by organizing and managing national game operations according to international and national regulations."
+          },
+          "groundingChunkIndices": [
+            3
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 871,
+            "endIndex": 1035,
+            "text": "It represents Swiss ice hockey interests both nationally and internationally and provides various services to its member clubs, including granting playing licenses."
+          },
+          "groundingChunkIndices": [
+            3
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1036,
+            "endIndex": 1274,
+            "text": "The organization is structured in a matrix format, with key departments including Sport, Leagues & Cup, Education, Officiating, and Marketing/Sponsoring & Communications, supported by Finance, Human Resources, and Coordination & Services."
+          },
+          "groundingChunkIndices": [
+            4,
+            2
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1275,
+            "endIndex": 1455,
+            "text": "The SIHF also engages in the financing of major sporting events, considering public acceptance and innovative marketing strategies, and focuses on value-oriented sports sponsoring."
+          },
+          "groundingChunkIndices": [
+            1
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1457,
+            "endIndex": 1775,
+            "text": "**Key Products/Services:**\nThe federation's main offerings include the management of all national teams, comprehensive talent and youth development programs, and the organization of league championships and cup tournaments across all levels, from the Sky Swiss League down to the 4th League, as well as junior leagues."
+          },
+          "groundingChunkIndices": [
+            4,
+            2
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1776,
+            "endIndex": 1911,
+            "text": "It also oversees the refereeing system (Officiating) and provides initial and continuing education for all aspects of Swiss ice hockey."
+          },
+          "groundingChunkIndices": [
+            4,
+            2
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1912,
+            "endIndex": 2046,
+            "text": "Other services include awarding playing licenses, hosting events like the Swiss Ice Hockey Night and Awards, and operating a fan shop."
+          },
+          "groundingChunkIndices": [
+            4,
+            2,
+            3
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 2048,
+            "endIndex": 2237,
+            "text": "**Market Position:**\nAs the recognized governing body for ice hockey in Switzerland, the SIHF holds a dominant market position as the sport's primary regulatory and developmental authority."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 2238,
+            "endIndex": 2290,
+            "text": "It is the \"Dachorganisation\" (umbrella organization)"
+          },
+          "groundingChunkIndices": [
+            1,
+            2
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 2291,
+            "endIndex": 2404,
+            "text": "for the sport, managing both professional and amateur games, indicating a comprehensive reach across the country."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 2406,
+            "endIndex": 2506,
+            "text": "**Headquarters Location:**\nThe headquarters of the Swiss Ice Hockey Federation is located in Zurich."
+          },
+          "groundingChunkIndices": [
+            1
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 2507,
+            "endIndex": 2598,
+            "text": "Moneyhouse also lists its location in Glattbrugg, which is part of the greater Zurich area."
+          },
+          "groundingChunkIndices": [
+            3
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 2600,
+            "endIndex": 2734,
+            "text": "**Recent News:**\nRecent discussions involving the SIHF include the future of sports sponsoring, emphasizing a value-oriented approach."
+          },
+          "groundingChunkIndices": [
+            1
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 2735,
+            "endIndex": 2933,
+            "text": "Switzerland anticipates a \"golden sports decade\" with upcoming World and European Championships, Special Olympics, and potential Olympic and Paralympic Games, which the SIHF is actively involved in."
+          },
+          "groundingChunkIndices": [
+            1
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 2934,
+            "endIndex": 3056,
+            "text": "Christian Hofstetter from the SIHF has contributed expert opinions on the financing and challenges of large sports events."
+          },
+          "groundingChunkIndices": [
+            1
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 3057,
+            "endIndex": 3169,
+            "text": "The federation continues to host its annual Swiss Ice Hockey Night and Awards, with events planned through 2025."
+          },
+          "groundingChunkIndices": [
+            4,
+            2
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 3171,
+            "endIndex": 3285,
+            "text": "**Notable Achievements or Challenges:**\n*   **Achievements:**\n    *   Being a founding member of the IIHF in 1908."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 3290,
+            "endIndex": 3375,
+            "text": "*   Adopting the \"Foundation, Talent, Elite, Mastery\" program for player development."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 3380,
+            "endIndex": 3473,
+            "text": "*   Successfully managing and organizing a vast network of leagues, cups, and national teams."
+          },
+          "groundingChunkIndices": [
+            4,
+            2
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 3478,
+            "endIndex": 3533,
+            "text": "*   Developing a robust talent and youth sport program."
+          },
+          "groundingChunkIndices": [
+            4,
+            2
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 3538,
+            "endIndex": 3622,
+            "text": "*   Maintaining a significant number of clubs, players, and games under its purview."
+          },
+          "groundingChunkIndices": [
+            1
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 3623,
+            "endIndex": 3743,
+            "text": "*   **Challenges:**\n    *   Addressing the complexities of financing large sports events and securing public acceptance."
+          },
+          "groundingChunkIndices": [
+            1
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 3748,
+            "endIndex": 3884,
+            "text": "*   Adapting to evolving trends in sports sponsoring to remain attractive to brands and secure funding for the sport's continued growth."
+          },
+          "groundingChunkIndices": [
+            1
+          ]
+        }
+      ],
+      "webSearchQueries": [
+        "Swiss Ice Hockey Federation company overview business model products services market position headquarters recent news achievements challenges official website Handelsregister LinkedIn"
+      ]
+    }
+  ]
+}
