@@ -19,6 +19,7 @@ All agents communicate via `session.state` using `output_key` parameters.
 ## Prerequisites
 
 - Python 3.11+
+- Node.js 20+ and npm (for the React app)
 - Google API Key (for Gemini models)
 - AgentOps API Key (optional, for tracing)
 
@@ -60,6 +61,33 @@ The `adk web` interface automatically:
 - Spawns the MCP server as a subprocess
 - Manages the MCP server lifecycle (start/stop)
 - Provides an interactive chat interface
+
+### Option 3: Matchroom React app
+
+The React app is a local interface for one Sunday singles pairing. It starts with Justin Rose (Europe) vs Cameron Young (USA) and the CLI sample's Saturday score (Europe 11.5, USA 4.5). You can edit the pairing, score, and match context before each run.
+
+Start the ADK API server from the repository root in one terminal:
+
+```bash
+uv sync
+# If you have not created .env yet: cp .env.example .env
+# Set GOOGLE_API_KEY in .env; for a Gemini API key, set GOOGLE_GENAI_USE_VERTEXAI=FALSE.
+uv run adk api_server --host 127.0.0.1 --port 8000 .
+```
+
+In a second terminal, start the frontend:
+
+```bash
+cd frontend
+npm ci
+npm run dev
+```
+
+Open http://127.0.0.1:5173. Vite proxies `/apps` and `/run_sse` to http://127.0.0.1:8000. If the ADK server uses another port, set `ADK_API_URL=http://127.0.0.1:<port>` when starting `npm run dev`. The browser creates a fresh ADK session and posts to `/run_sse`; it never receives `GOOGLE_API_KEY`. ADK loads `ryder_cup_prediction.root_agent` and starts the MCP subprocess on the Python side. The five-agent run can take time, and a server or model error appears in the forecast panel.
+
+This is a loopback-only development setup, not an authenticated deployment. Do not expose either development server to a public network. The app does not store session history across page reloads. `adk web` and `python run_prediction.py` remain separate options.
+
+Frontend checks: `cd frontend && npm test && npm run lint && npm run build`.
 
 ## MCP Integration
 
